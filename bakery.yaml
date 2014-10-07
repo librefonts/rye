@@ -1,0 +1,6 @@
+commit: HEAD
+process_files: [Rye-Regular.ttf.ttx, src/Rye-Regular.otf.ttx, src/Rye-Regular-TTF.sfd,
+  src/Rye-Regular-OTF.sfd]
+pyftsubset: --notdef-outline --name-IDs=* --hinting
+subset: [latin]
+ttfautohint: -l 7 -r 28 -G 50 -x 13 -w "G"
